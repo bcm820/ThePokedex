@@ -1,0 +1,70 @@
+*{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+    margin: 0;
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-image: url("ash.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    font-family: Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 380px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* CONTAINERS */
+
+#pokedex{
+    background-color: #FFFFFF;
+    display: inline-block;
+    position: fixed;
+    width: 250px;
+    margin-left: 60px;
+    padding: 15px;
+}
+
+#display{
+    background-color: #DDB3B3;
+    display: inline-block;
+    width: 400px;
+    margin: 0px 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
