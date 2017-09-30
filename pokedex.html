@@ -32,13 +32,13 @@
                         var info = "";
                         info += `<img class=icon id=${id} src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${id}.png>`;
                         info += `<h2>${response['name']}</h2>`;
-                        info += `<p><span class=bold>Types</span>:<br>- `;
+                        info += `<p><span class=bold>Types</span>:<br>`;
                         for (var i = 0; i < response.types.length; i++){
-                            info += `${response.types[i]['name']}<br>- `;
+                            info += `${response.types[i]['name']}<br>`;
                         }
-                        info += `<p><span class=bold>Abilities</span>:<br>- `;
+                        info += `<p><span class=bold>Abilities</span>:<br>`;
                         for (var i = 0; i < response.abilities.length; i++){
-                            info += `${response.abilities[i]['name']}<br>- `;
+                            info += `${response.abilities[i]['name']}<br>`;
                         }
                         info += `</p><p class=><span class=bold>Height</span>: 0.${response['height']}m</p>`;
                         info += `<p><span class=bold>Weight</span>: ${response['weight'] / 10}kg</p>`;
